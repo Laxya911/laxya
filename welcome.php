@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hi! my name is Laxman Aryal based in New Delhi, I did software engineering from  Delhi University New Delhi in 2015, I am a web developer and AWS certified">
+    <title>Laxman Aryal</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/fevicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/fevicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/fevicons/favicon-16x16.png">
+<link rel="manifest" href="assets/fevicons/site.webmanifest">
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+</head>
+<body>
+
+<!-- Start Navbar -->
+<nav class="nav">
+    <div class="nav__wrapper">
+        <div class="nav__wrapper__logo">
+            <a href="index.php#header" class="nav__wrapper__logo__brand">Laxman</a>
+        </div>
+        <ul class="nav__wrapper__ul">
+            <li class="nav__wrapper__ul__li">
+                <a href="index.php#header" class="nav__wrapper__ul__li__a">Home</a>
+            </li>
+            <li class="nav__wrapper__ul__li">
+                <a href="index.php#about" class="nav__wrapper__ul__li__a">about</a>
+            </li>
+            <li class="nav__wrapper__ul__li">
+                <a href="index.php#experiance" class="nav__wrapper__ul__li__a">experiance</a>
+            </li>
+            <li class="nav__wrapper__ul__li">
+                <a href="index.php#projects" class="nav__wrapper__ul__li__a">projects</a>
+            </li>
+            <li class="nav__wrapper__ul__li">
+                <a href="index.php#skills" class="nav__wrapper__ul__li__a">skills</a>
+            </li>
+            <li class="nav__wrapper__ul__li">
+                <a href="index.php#testimonials" class="nav__wrapper__ul__li__a">testimonials</a>
+            </li>
+            <li class="nav__wrapper__ul__li">
+                <a href="index.php#blogs" class="nav__wrapper__ul__li__a">blogs</a>
+            </li>
+        </ul>
+        <div class="nav__wrapper__toggle"><i class="bi bi-justify-right"></i></div>
+    </div>
+</nav>
+<section class="about" id="about">
+<div class="container">
+    <div class="row items-center">
+     <div class="col-xlg-6 col-lg-6 col-sm-12">
+         <div class="about__image">
+          <img src="./assets/images/large.jpg" alt="large image">
+          <div class="about__image__small">
+          <img src="./assets/images/small.jpg" alt="small image">
+          </div>
+          <!-- close about__image__small -->
+         </div>
+         <!-- close about__image -->
+     </div>
+     <!-- close column -->
+     <div class="col-xlg-6 col-lg-6 col-sm-12">
+      <h1 class="heading">Hello</h1>
+      <div class="about__info">
+          <p class="about__info__message">
+          Thank You For Contacting Me, I Will Be In Touch ASAP
+          </p>
+ 
+           <!-- close about__info__block -->
+           <div class="about__info__socials">
+           <a href="https://twitter.com/username" class="about__info__socials__circle" target="_blank"><i class="bi bi-twitter"></i></a>
+           <a href="https://facebook.com/username" class="about__info__socials__circle" target="_blank"><i class="bi bi-facebook"></i></a>
+           <a href="https://linkedin.com/username" class="about__info__socials__circle" target="_blank"><i class="bi bi-linkedin"></i></a>
+           <a href="https://youtube.com/username" class="about__info__socials__circle" target="_blank"><i class="bi bi-youtube"></i></a>
+           <a href="https://github.com/username" class="about__info__socials__circle" target="_blank"><i class="bi bi-github"></i></a>
+           </div>
+           <!-- close about__info__socials -->
+           </div>
+        <div class="modal__wrapper__contents__block">
+              <span class="modal__wrapper__contents__block__left">email</span>
+              <span class="modal__wrapper__contents__block__right">laxuaryal@gmail.com</span>
+          </div>
+          <div class="modal__wrapper__contents__block">
+            <span class="modal__wrapper__contents__block__left">phone</span>
+            <span class="modal__wrapper__contents__block__right">+919967595611</span>
+        </div><br>
+        
+        <a href="index.php" class="btn btn-success btn-lg fs-2" >Go Back</a>
+    
+</div>
+      </div>
+      
+     </div>
+     <!-- close column -->
+    </div>
+    <!-- close row -->
+</div>
+</section>
+<!-- Close Navbar --><br>
+
+
+<script src='app.js'></script>
+</body>
+</html>
