@@ -951,27 +951,28 @@
                 <!-- close column -->
 
                 <div class="col-xlg-7 col-lg-7 col-md-12">
-                    <form action="welcome.html" method="get" class="form php-email-form">
+                    <form action="#" method="post" class="form">
                         <h1 class="heading">contact me</h1>
                         <div class="row">
                             <div class="col-xlg-6 col-lg-6 col-md-12">
-                                <input type="text" name="name" class="form__control" placeholder="Name...">
+                                <input type="text" name="name" id="name" class="form__control" placeholder="Name...">
                             </div>
                             <!-- close column -->
                             <div class="col-xlg-6 col-lg-6 col-md-12">
-                                <input type="Email" name="email" class="form__control" placeholder="Email...">
+                                <input type="Email" name="email" id="email" class="form__control" placeholder="Email...">
                             </div>
                             <!-- close column -->
                             <div class="col-xlg-12 col-lg-12">
-                                <input name="subject" type="text" class="form__control" placeholder="Subject...">
+                                <input name="subject" type="text" id="subject" class="form__control" placeholder="Subject...">
                             </div>
                             <!-- close column -->
                             <div class="col-xlg-12 col-lg-12">
-                                <textarea name="message" type="text" class="form__control" cols="30" rows="5" placeholder="Your message..."></textarea>
+                                <textarea name="message" type="text" id="message" class="form__control" cols="30" rows="5" placeholder="Your message..."></textarea>
                             </div>
                             <!-- close column -->
                             <div class="col-xlg-12 col-lg-12">
-                                <input type="submit" name="submit" value="send email" class="btn btn-dark">
+                                <button type="submit" id="submit" class="btn btn-dark" onclick="sendEmail()"> Send Email </button>
+                                <!-- <input type="submit" name="submit" value="send email" class="btn btn-dark"> -->
                             </div>
                             <!-- close column -->
                         </div>
@@ -984,7 +985,8 @@
         </div>
     </footer>
     <!-- close footer -->
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src='app.js'></script>
 </body>
 

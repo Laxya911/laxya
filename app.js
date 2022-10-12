@@ -39,3 +39,25 @@ modalClose.addEventListener('click', () => {
 // get current year
 const year = document.querySelector('.year');
 year.innerHTML = new Date().getFullYear();
+
+
+
+  
+function sendEmail() {
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let message = document.getElementById("message").value;
+	let subject = document.getElementById("subject").value;
+    let finalmessage = `Name : ${name} <br>  Email : ${email} <br> Email : ${subject} <br>  Message : ${message} <br>`;
+    email.send({
+        Host : "smtp.gmail.com",
+		Username : "laxuaryal",
+        Password : "Laxya@1234",
+        To : 'laxman.aryal@hotmail.com',
+        From : "laxya.info",
+        Subject : "Mail from website",
+        Body : finalmessage
+    }).then(
+      message => alert(message)
+    );
+}
