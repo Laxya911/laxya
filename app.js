@@ -48,13 +48,13 @@ function sendEmail() {
     let email = document.getElementById("email").value;
     let message = document.getElementById("message").value;
 	let subject = document.getElementById("subject").value;
-    let finalmessage = `Name : ${name} <br>  Email : ${email} <br> Email : ${subject} <br>  Message : ${message} <br>`;
+    let finalmessage = `Name : ${name} <br>  Email : ${email} <br> Subject : ${subject} <br>  Message : ${message} <br>`;
     email.send({
         Host : "smtp.gmail.com",
-		Username : "laxuaryal@gmail.com",
-        Password : "Laxya@1234",
+		Username : "username",
+        Password : "@Password",
 		Port : "587",
-        To : 'laxman.aryal@hotmail.com',
+        To : 'laxman.aryal',
         From : "laxya.info",
         Subject : "Mail from website",
         Body : finalmessage
