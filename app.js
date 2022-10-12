@@ -51,8 +51,9 @@ function sendEmail() {
     let finalmessage = `Name : ${name} <br>  Email : ${email} <br> Email : ${subject} <br>  Message : ${message} <br>`;
     email.send({
         Host : "smtp.gmail.com",
-		Username : "laxuaryal",
+		Username : "laxuaryal@gmail.com",
         Password : "Laxya@1234",
+		Port : "587",
         To : 'laxman.aryal@hotmail.com',
         From : "laxya.info",
         Subject : "Mail from website",
